@@ -1,0 +1,13 @@
+version: '3.5'
+services:
+  flutter-intro:
+    privileged: true
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    image: flutter-intro
+    container_name: flutter-intro
+    restart: unless-stopped
+    tty: true
+    volumes:
+      - ./../:/root/app
