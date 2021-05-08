@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-class MyApp extends StatelessWidget {
+class StatelessWidgetDemo extends StatelessWidget {
   void answerQuestion() {
     print("Answer pressed");
   }
